@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Bootstrap - NIOMIC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="nama"><b>Nama Lengkap</b></label>
+                <input type="text" class="form-control" id="nama" aria-describedby="" placeholder="Nama Lengkap">
+            </div>
+            <div class="form-group">
+                <label for="alamat"><b>Alamat Rumah</b></label>
+                <textarea class="form-control" id="alamat" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="foto"><b>Foto Profil</b></label><br>
+                <input type="file" name="foto" id="foto">
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Alamat email</b></label>
+                <input type="email" class="form-control" id="email" placeholder="Alamat Email"></input>
+            </div>
+            <div class="form-group">
+                <label for="pass"><b>Kata Sandi</b></label>
+                <input type="password" class="form-control" id="password" placeholder="Kata Sandi"></input>
+            </div>
+            <div class="form-group">
+                <label for="kendaraan"><b>Jenis Kendaraan Anda :</b></label>&nbsp;
+                <input type="radio" name="kendaraan" id="Motor">Motor &nbsp;
+                <input type="radio" name="kendaraan" id="Mobil">Mobil
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
